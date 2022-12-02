@@ -1,4 +1,16 @@
 <html>
+    <style>
+        table, th, td {
+            border: 10px solid cyan;
+            color: blueviolet;
+            background-color: black;
+        }
+        p{
+            border: 1px solid green;
+            width: 11em;
+            color:yellow;
+        }
+    </style>
 <body>
 <p>welcome, here is your info:</p>
 <table>
@@ -12,10 +24,10 @@
     </thead>
     <tbody>
         <tr>
-            <th><?php echo $_GET["FirstName"] ?></th>
-            <th><?php echo $_GET["LastName"] ?></th>
-            <th><?php echo $_GET["UserName"] ?></th>
-            <th><?php echo $_GET["Password"] ?></th>
+            <td><?php echo $_GET["FirstName"] ?></td>
+            <td><?php echo $_GET["LastName"] ?></td>
+            <td><?php echo $_GET["UserName"] ?></td>
+            <td><?php echo $_GET["Password"] ?></td>
         </tr>
     </tbody>
 </table>
