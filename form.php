@@ -3,7 +3,7 @@
   <title>Resistration Form</title>
 </head>
 <body>
-  <h2>Kindly fill this form</h2>
+  <h3>Kindly fill this form</h3>
   <form action="data.php" method="GET"> 
 <p><label>FirstName : <input type="text" name="FirstName" /></label></p>
 <p><label>LastName : <input type="text" name="LastName" /></label></p> 
