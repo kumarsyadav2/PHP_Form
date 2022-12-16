@@ -4,7 +4,7 @@
 </head>
 <body>
   <h3>Kindly fill this form:</h3>
-  <form action="data.php" method="GET"> 
+  <form action="data1.php" method="GET"> 
 <p><label>FirstName : <input type="text" name="FirstName" /></label></p>
 <p><label>LastName : <input type="text" name="LastName" /></label></p> 
 <p><label>UserName : <input type="text" name="UserName" /></label></p>

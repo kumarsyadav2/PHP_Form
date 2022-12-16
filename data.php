@@ -24,10 +24,10 @@
     </thead>
     <tbody>
         <tr>
-            <td><?php echo $_GET["FirstName"] ?></td>
-            <td><?php echo $_GET["LastName"] ?></td>
-            <td><?php echo $_GET["UserName"] ?></td>
-            <td><?php echo $_GET["Password"] ?></td>
+            <td><?php session_start(); echo $_SESSION["Fname"] ?></td>
+            <td><?php  echo $_SESSION["Lname"] ?></td>
+            <td><?php  echo $_SESSION["Uname"] ?></td>
+            <td><?php  echo $_SESSION["Pass"] ?></td>
         </tr>
     </tbody>
 </table>
